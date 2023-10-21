@@ -1,4 +1,4 @@
-module andgat (a, x, y, z):
+module andgate(a, x, y, z):
 input [1:0] a;
 output x, y, z;
 assign x = a[0] & a[1];
